@@ -1,0 +1,14 @@
+body, html {
+    margin: 0;
+    height: 100%;
+  }
+  body.no-block {
+    flex-flow: column;
+    overflow-x: hidden;
+    display: flex;
+  }
+  body {
+    background: #DEDEDE;
+    display: flex !important;
+    list-style: none;
+  }
